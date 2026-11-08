@@ -1,5 +1,6 @@
 
 import './App.css'
+import CartItem from './CartItem';
 import AboutUs from './AboutUs'
 import ProductList from './ProductList'
 
@@ -203,8 +204,7 @@ function App() {
 
         <Route path="/plants" element={<ProductList />} />
 
-        <Route path="/cart" element={<CartPage />} />
-
+        <Route path="/cart" element={<CartItem />} />  
       </Routes>
 
     </BrowserRouter>
